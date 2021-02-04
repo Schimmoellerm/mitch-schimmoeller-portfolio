@@ -11,6 +11,7 @@ body {
 
 .header img {
     height: inherit;
+    display: inline-block;
     
 }
 .header h1 {
@@ -62,7 +63,16 @@ p {
     color: darkslategray;
     font-size: 2em; 
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    width: 15%;
+    text-align: right;
+    margin: 20px;
+}
+
+.about-me-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto; 
 }
 
 .work {
@@ -72,9 +82,35 @@ p {
     color: darkslategray;
     font-size: 2em; 
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: row;
+    width: 15%;
+    text-align: right;
+    margin: 20px;    
 }
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured-project {
+    height:500px;
+    width: 500px;
+    border-color: darkslategray;
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    height:100px;
+    width: 100px;
+    border-color: darkslategray;
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 .contact {
     border-right-style: solid;
@@ -83,5 +119,20 @@ p {
     color: darkslategray;
     font-size: 2em; 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    width: 15%;
+    text-align: right;
+    margin: 20px;    
+}
+
+.contacts a {
+    color: black;
+    text-decoration: underline;
+    list-style-type: none;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    display: inline-block
 }
