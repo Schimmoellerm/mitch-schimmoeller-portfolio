@@ -12,6 +12,8 @@ body {
 .header img {
     height: inherit;
     display: inline-block;
+    border-radius: 100%;
+    vertical-align: middle;
     
 }
 .header h1 {
@@ -19,6 +21,7 @@ body {
     font-size: 48px;
     color: black;
     background-color: silver;
+    
 }
 
 .header div {
@@ -41,6 +44,7 @@ body {
 a {
     color: silver;
     text-decoration: underline;
+    font-size: 2em;
 }
 
 p {
