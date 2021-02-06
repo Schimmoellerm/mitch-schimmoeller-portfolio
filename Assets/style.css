@@ -13,15 +13,13 @@ body {
     height: inherit;
     display: inline-block;
     border-radius: 100%;
-    vertical-align: middle;
-    
+    vertical-align: middle;    
 }
 .header h1 {
     display: inline-block;
     font-size: 48px;
-    color: black;
-    background-color: silver;
-    
+    color: darkslateblue;
+    background-color: silver;    
 }
 
 .header div {
@@ -43,8 +41,7 @@ body {
 
 a {
     color: silver;
-    text-decoration: underline;
-    
+    text-decoration: underline;    
 }
 
 p {
@@ -79,8 +76,7 @@ p {
 .about-me-text {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
-    
+    width: 70%;    
 }
 
 .work {
@@ -102,8 +98,7 @@ p {
 .projects {
     display: flex;
     flex-wrap: wrap;
-    width: 75%;
-    
+    width: 75%;    
 }
 
 .featured-project {
@@ -124,7 +119,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-
+    margin-top: 10px;
 }
 
 .contact-me {
@@ -140,8 +135,7 @@ p {
     width: 15%;
     text-align: right;
     padding: 10px; 
-    margin: 10px;
-        
+    margin: 10px;     
 }
 
 .contacts a {
