@@ -55,6 +55,16 @@ p {
     background-image: url("./Images/roberto-motoi-3_5zd-OWe5Q-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+
+.background-picture h1 {
+    position: absolute;
+    color: aliceblue;
+    bottom: 8px;
+    right: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
 .about-me {
