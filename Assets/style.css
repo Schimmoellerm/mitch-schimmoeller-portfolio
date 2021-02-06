@@ -65,17 +65,19 @@ p {
 .about-me-title {
     border-right-style: solid;
     border-color: darkslategray;
-    color: darkslategray;
+    color: darkslateblue;
     font-size: 1.5em; 
     width: 15%;
     text-align: right;
     padding: 10px;
-    margin: 10px;    
+    margin: 10px;   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 
 .about-me-text {
     display: flex;
     flex-wrap: wrap;
+    color: darkslateblue;
     width: 70%;    
 }
 
@@ -87,12 +89,13 @@ p {
 .work-title {
     border-right-style: solid;
     border-color: darkslategray;
-    color: darkslategray;
+    color: darkslateblue;
     font-size: 1.5em; 
     width: 15%;
     text-align: right;
     padding: 10px; 
-    margin: 10px;    
+    margin: 10px;   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 
 .projects {
@@ -130,25 +133,30 @@ p {
 .contact-title {
     border-right-style: solid;
     border-color: darkslategray;
-    color: darkslategray;
+    color: darkslateblue;
     font-size: 1.5em; 
     width: 15%;
     text-align: right;
     padding: 10px; 
-    margin: 10px;     
+    margin: 10px;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+.contacts {
+    margin: auto;
 }
 
 .contacts a {
     color: black;
     text-decoration: underline;
     list-style-type: none;
-    padding-top: 15px;
-    margin-right: 20px;
     float: right;
+    padding-top: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     display: flex;
     text-align: center;
     vertical-align: middle; 
-    padding: 10px;  
+    padding: 40px;
+    margin: auto; 
 }
