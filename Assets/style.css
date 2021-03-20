@@ -19,7 +19,7 @@ main {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-    color: darkslateblue;
+    color: black;
     background-color: silver;    
 }
 
@@ -90,7 +90,7 @@ p {
 .about-me-text {
     display: flex;
     flex-wrap: wrap;
-    color: darkslateblue;
+    color: black;
     width: 70%;    
 }
 
