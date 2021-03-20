@@ -3,6 +3,7 @@
 This portfolio was built from the ground up using the many HTML and CSS lessons learned so far through the Coding Bootcamp. It is designed to be responsive to the end user in that it will link to different sections of the page using the navigation bar. It also contains many different links that will allow a potential employer to contact me and view my previous works. Eventually this project will act as a portal to my many projects and showcase the skills I learn as I continue through the course. 
 
 ![portfolio-example](./Assets/Images/portfolio-example.PNG)
+[Mitch Schimmoeller Portfolio](https://schimmoellerm.github.io/mitch-schimmoeller-portfolio/)
 
 ## Built With
 
